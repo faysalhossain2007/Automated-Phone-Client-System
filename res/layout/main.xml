@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:paddingTop="140dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp" >
+
+    <Button
+        android:id="@+id/btnObs"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Observation" />
+
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Control" />
+
+    <Button
+        android:id="@+id/btnHis"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Histroy" />
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+
+</LinearLayout>
