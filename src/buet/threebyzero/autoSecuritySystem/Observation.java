@@ -9,6 +9,6 @@ public class Observation extends Activity{
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.observation);
-	        new FileReceive();
+	        new SaveImage();
 	    }
 }
